@@ -14,8 +14,8 @@ filesize_routes6=$(stat -c%s routes6.conf)
 filesize_routes4_kb=$((filesize_routes4/1024))
 filesize_routes6_kb=$((filesize_routes6/1024))
 
-# 如果两个文件大小都大于 400KB，则将它们复制到 /etc/bird 文件夹下，并执行 birdc configure 命令
-if [ "$filesize_routes4_kb" -gt "400" ] && [ "$filesize_routes6_kb" -gt "400" ]; then
+# 如果两个文件大小都大于 350KB，则将它们复制到 /etc/bird 文件夹下，并执行 birdc configure 命令
+if [ "$filesize_routes4_kb" -gt "350" ] && [ "$filesize_routes6_kb" -gt "350" ]; then
   echo "复制 routes4.conf 文件到 /etc/bird 文件夹..."
   cp -f routes4.conf /etc/bird/routes4.conf
   
