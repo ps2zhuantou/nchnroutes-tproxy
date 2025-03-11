@@ -43,7 +43,6 @@ def dump_bird(lst, f):
 RESERVED = [
     IPv4Network('0.0.0.0/8'),
     IPv4Network('10.0.0.0/8'),
-    IPv4Network('20.254.1.0/16'), 
     IPv4Network('127.0.0.0/8'),
     IPv4Network('169.254.0.0/16'),
     IPv4Network('172.16.0.0/12'),
