@@ -61,6 +61,7 @@ RESERVED = [
     IPv4Network('198.51.100.0/24'),
     IPv4Network('198.98.48.0/24'),
     IPv4Network('203.0.113.0/24'),
+    IPv4Network('209.141.58.0/24'),
     IPv4Network('224.0.0.0/4'),
     IPv4Network('240.0.0.0/4'),
     IPv4Network('255.255.255.255/32'),
