@@ -7,5 +7,4 @@ produce:
 	#sudo mv routes6.conf /etc/bird/routes6.conf
 	#sudo birdc configure
 	# sudo birdc6 configure
-        #curl -o china_ip_list.txt https://raw.githubusercontent.com/gaoyifan/china-operator-ip/refs/heads/ip-lists/china.txt
-        #curl -o china_ip_list.txt https://raw.githubusercontent.com/mayaxcn/china-ip-list/refs/heads/master/chnroute.txt
+       
