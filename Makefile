@@ -5,7 +5,7 @@ produce:
         #curl -o china_ip_list.txt https://raw.githubusercontent.com/gaoyifan/china-operator-ip/refs/heads/ip-lists/china.txt
         #curl -o china_ip_list.txt https://raw.githubusercontent.com/mayaxcn/china-ip-list/refs/heads/master/chnroute.txt
         #curl -o china_ip_list.txt https://raw.githubusercontent.com/carrnot/china-ip-list/release/ipv4.txt
-    curl -o  china_ip_list.txt https://github.com/billkit/CN-IP/raw/refs/heads/main/all_cn_cidr.txt
+    curl -o  china_ip_list.txt https://raw.githubusercontent.com/billkit/CN-IP/refs/heads/main/all_cn_cidr.txt
 	python3 produce.py
 	#sudo mv routes4.conf /etc/bird/routes4.conf
 	#sudo mv routes6.conf /etc/bird/routes6.conf
