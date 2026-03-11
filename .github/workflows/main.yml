@@ -1,11 +1,13 @@
 name: Upload Router Config
 
 on:
-  schedule:
-    - cron: '0 21 * */6 *'
   push:
     branches:
-      - main        
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 21 * */6 *'
+  
 
 jobs:
   delete_all_releases:
