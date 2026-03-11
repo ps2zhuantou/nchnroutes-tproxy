@@ -2,7 +2,7 @@ name: Upload Router Config
 
 on:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '0 19 */15 * *'
   push:
     branches:
       - main        
